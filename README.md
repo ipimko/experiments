@@ -192,7 +192,7 @@ https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
 нажать "Импорт".
 См. скрины:
 
-![Настройка OpenKeychain, шаг 1](password_managers.files/openkeychain_01.png "Шаг_1"){:width="100px"}
+![Настройка OpenKeychain, шаг 1](password_managers.files/openkeychain_01.png "Шаг_1")
 
 
 
