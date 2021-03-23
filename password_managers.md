@@ -193,7 +193,8 @@ https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
 См. скрины:
 
 Original  
-![Настройка OpenKeychain, шаг 1](password_managers.files/openkeychain_01.png "Шаг_1")
+![Настройка OpenKeychain, шаг 1](password_managers.files/openkeychain_01.png "Настройка OpenKeychain, шаг 1")
+
 
 Resize
 ![Настройка OpenKeychain, шаг 1](password_managers.files/Resized/openkeychain_01.png "Шаг_1")
