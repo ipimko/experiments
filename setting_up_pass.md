@@ -134,7 +134,7 @@ https://www.openkeychain.org/faq/#how-to-import-an-openkeychain-backup-with-gpg
 1. Генерим временный пароль, которым дальше зашифруем экспортируемые ключи:\
 `gpg --armor --gen-random 1 20`
 
-2. Создаём файл с экспортируемыми ключами:\
+2. Создаём файл с экспортируемыми ключами:
    ```
    gpg --armor --export-secret-keys i.pimchenko@gmail.com | \
    gpg --armor --symmetric --output mykey.sec.asc
@@ -186,8 +186,8 @@ https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
 
 ### 9. Настройка Password Store
 
-Password store занимается собственно менеджментом хранилища паролей, оно может
-синхронизироваться с github и выполнять автозаполнение.
+Приложение Password store занимается собственно менеджментом хранилища паролей, оно может
+синхронизироваться с github и выполнять автозаполнение диалогов ввода логина/пароля в браузере.
 
 Страница приложения в google play:\
 https://play.google.com/store/apps/details?id=dev.msfjarvis.aps
@@ -203,7 +203,7 @@ https://play.google.com/store/apps/details?id=dev.msfjarvis.aps
 3. На экране "Информация о репозитории" ввести URL своего репозитория согласно схеме:
 `https://github_username@github.com/github_username/repo_name` (почему это делается таким
 образом не знаю, на конец марта 21-го года документация у приложения в состоянии "переписывание
-с нуля", [ссылка](https://github.com/android-password-store/Android-Password-Store/wiki/Setting-up-Password-Store-to-sync-with-a-local-computer) на старую документацию на эту тему), тип авторизации нужно выбрать **[ПАРОЛЬ]**
+с нуля", вот [ссылка](https://github.com/android-password-store/Android-Password-Store/wiki/Setting-up-Password-Store-to-sync-with-a-local-computer) на старую документацию на эту тему). Тип авторизации выбрать **[ПАРОЛЬ]**
 (выберется сам, если правильно вбить URL), нажать **[КЛОНИРОВАТЬ]**:  
 ![Настройка Password Store, шаг 3](setting_up_pass.files/password_store_03.png "Настройка Password Store, шаг 3")
 
@@ -218,14 +218,14 @@ https://play.google.com/store/apps/details?id=dev.msfjarvis.aps
 ------------------------------
 ### 10. Финальный тюнинг
 
-У меня была такая проблема: OpenKeychain настроен, Password store синхронизирован с github, я
-вижу все свои папки и записи паролей но, при тапе на любой записи происходит быстрая смена
-картинки туда-обратно, как будто password-store куда-то переключается, затем переключается
-обратно. Дело оказалось, в отсутствующем у OpenKeychain разрешении на отображение всплывающих
-окон (проделки MIUI). Лечится так:  
+У меня была такая проблема: Смартфон Xiaomi POCO X3 NFC, OpenKeychain настроен, Password store
+синхронизирован с github, я вижу все свои папки и записи паролей но, при тапе на любой записи
+происходит быстрая смена картинки туда-обратно, как будто password-store куда-то переключается,
+затем переключается обратно. Дело оказалось, в отсутствующем у OpenKeychain разрешении на
+отображение всплывающих окон (проделки MIUI). Лечится так:  
 *Настройки -> Приложения -> Все приложения -> OpenKeychain -> Другие разрешения -> Отображать
 всплывающие окна, когда запущено в фоновом режиме -> Вкл.*  
-Можно заодно поразрешать ему ещё что-нибудь, на всякий пожарный.
+Можно заодно разрешить ему ещё что-нибудь, на всякий пожарный случай.
 
 Далее делаем следующее:
 
