@@ -261,7 +261,7 @@ mail.ru
 
 Картинки с линками:
 --------------------------------------------------
-[![Пикассо](markdown_памятка.files/Picasso\ 0002.jpg "Да я так за десять минут нарисую!")](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Да я так за десять минут нарисую!")
+[![Пикассо](markdown_памятка.files/Picasso_0002.jpg "Да я так за десять минут нарисую!")](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Да я так за десять минут нарисую!")
 
 
 
