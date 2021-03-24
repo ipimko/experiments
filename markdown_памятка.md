@@ -240,16 +240,29 @@ mail.ru
 
 
 
+
+Вставочка из мегагрупа
+```html
+<img alt="Однослойные полиэтиленовые трубы в отрезках"
+src="/d/truby_polietilenovye_vodoprovodnye_odnoslojnye_v_hlystah-01.png"
+style="border-width: 0px; float: left; height: 200px; width: 200px; margin: 10px 20px;"
+title="Трубы ПНД (ПЭ) однослойные"
+/>
+```
+Во всплывающей подсказке отображется title
+
+
 Картинки
 --------------------------------------------------
 
-Пикассо такой Пикассо   
-![Пикассо](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Да я так за десять минут нарисую!")
-
 Картинки работают почти идентично ссылкам, но начинаются с "!"
+![Пикассо](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Да я так за десять минут нарисую!")
+```
+Схема:
+![Alt text](http://path/to/remote/image.jpg "Title text")
+```
 текст в первых квадратных скобках - это "alt" картинки
->примечание:  
-"alt" картинки это текст, которым заменяется картинка, когда она по какой-либо причине
+>"alt" картинки это текст, которым заменяется картинка, когда она по какой-либо причине  
 >не может быть отображена. 
 >альт (в смысле сам текст) можно не указывать, но квадратные скобки [] необходимы 
 
@@ -259,9 +272,25 @@ mail.ru
 [pretty]:https://theblueprint.ru/upload/12822/1027fec3adffb100c91b61cde6734d68.jpg "Знойная женщина,мечтапоэта"
 
 
+Схема:\
+`![Alt text][id]`\
+`[id]:http://path/to/remote/image.jpg "Title text"`
+
+
 Картинки с линками:
 --------------------------------------------------
-[![Пикассо](markdown_памятка.files/Picasso_0002.jpg "Да я так за десять минут нарисую!")](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Да я так за десять минут нарисую!")
+[![Пикассо](markdown_памятка.files/Picasso\ 0002.jpg "Да я так за десять минут нарисую!")](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg)
+
+
+[![Пикассо](markdown_памятка.files/Picasso\ 0002.jpg "Да я так за десять минут нарисую!")](https://ya.ru/)
+
+
+```
+Схема:
+[![Alt text](local/path/to/image.jpg "Title text")](http://path/to/remote/image.jpg "Да я так за десять минут нарисую!")
+```
+Суть в том, что отображаемая картинка является ссылкой (на картинку или куда-то ещё)
+
 
 
 
