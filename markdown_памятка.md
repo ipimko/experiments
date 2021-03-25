@@ -257,6 +257,13 @@ title="Трубы ПНД (ПЭ) однослойные"
 
 Картинки работают почти идентично ссылкам, но начинаются с "!"
 ![Пикассо](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Да я так за десять минут нарисую!")
+
+test
+
+![Some_alt_text](http://incolor-art.ru/artists/picasso/images/Picasso%200002.jpg "Some_title_text")
+
+end test
+
 ```
 Схема:
 ![Alt text](http://path/to/remote/image.jpg "Title text")
