@@ -1,4 +1,3 @@
-## Ссылки и картинки
 
 ### Картинки
 
@@ -162,17 +161,3 @@ Cсылка двумя строками
 [img_id]:local/or/remote/path/to/image "Title text"
 [lnk_id]:remote/path/to/page/or/image
 ```
-
-
-
-
-Java
-:    Хороший язык
-:    как Пройти в библиотеку?
-
-JS
-:   Плохой язык
-
-
-
-
